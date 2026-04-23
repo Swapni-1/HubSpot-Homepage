@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>GrowthHub — Grow better, together</title>
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="./style.css"
+  <script type="text/javascript" src="./main.js" defer></script>   
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-container">
+    <div class="logo">Growth<span>Hub</span></div>
+    
+    <nav class="nav">
+      <!-- Hamburger button -->
+      <button class="hamburger" id="hamburgerBtn" aria-label="Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navigation links -->
+      <ul class="nav-list" id="navList">
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Customers</a></li>
+        <li><a href="#">About</a></li>
+        <!-- Mobile-only CTA links (appear only when menu is active) -->
+        <li class="mobile-only"><hr style="margin:8px 0; border-color:#e2e8f0;"></li>
+        <li class="mobile-only"><a href="#" class="btn-link" style="font-weight:600;">Log in</a></li>
+        <li class="mobile-only"><a href="#" class="btn-primary" style="display:inline-block; margin-top:8px;">Get started free</a></li>
+      </ul>
+    </nav>
+
+    <!-- Desktop actions -->
+    <div class="header-actions">
+      <a href="#" class="btn-link">Log in</a>
+      <a href="#" class="btn-primary">Get started free</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="hero-badge"><i class="fas fa-bolt" style="margin-right:6px;"></i>NEW: AI-powered insights</span>
+        <h1 class="hero-title">Grow better with <span class="highlight">GrowthHub</span></h1>
+        <p class="hero-desc">All-in-one platform that connects your teams, tools, and customers. Scale faster with less complexity.</p>
+        <div class="hero-actions">
+          <a href="#" class="btn-primary" style="padding:14px 32px;">Start free trial</a>
+          <a href="#" class="btn-outline"><i class="far fa-play-circle" style="margin-right:8px;"></i>Watch demo</a>
+        </div>
+        <p style="margin-top: 24px; color: var(--gray-mid); font-size:0.9rem;"><i class="fas fa-check-circle" style="color:var(--primary);"></i> No credit card required</p>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-card">
+          <div class="stat-row">
+            <div class="stat-item">
+              <div class="stat-number">97%</div>
+              <div class="stat-label">happier teams</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">3.2x</div>
+              <div class="stat-label">faster growth</div>
+            </div>
+          </div>
+          <div style="display: flex; justify-content: center;">
+            <i class="fas fa-chart-line icon-large"></i>
+          </div>
+          <div style="display: flex; gap: 8px; justify-content: center; margin-top: 10px;">
+            <span style="background:white; padding:8px 16px; border-radius:40px; box-shadow: var(--shadow-sm);"><i class="fas fa-database" style="color:var(--primary);"></i> CRM & Sales</span>
+            <span style="background:white; padding:8px 16px; border-radius:40px; box-shadow: var(--shadow-sm);"><i class="fas fa-envelope-open-text" style="color:var(--primary);"></i> Marketing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>Everything you need to scale</h2>
+        <p>Unified tools that adapt as you grow — from startup to enterprise.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-users"></i></div>
+          <h3>Smart CRM</h3>
+          <p>Track every interaction automatically. Build deeper relationships with less work.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Marketing Hub</h3>
+          <p>Attract visitors, convert leads, and run personalized campaigns at scale.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-headset"></i></div>
+          <h3>Customer Service</h3>
+          <p>Connect support, success, and operations to deliver a seamless experience.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-chart-pie"></i></div>
+          <h3>Analytics Suite</h3>
+          <p>Custom reports and dashboards that give you the full picture — no code.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-plug"></i></div>
+          <h3>1,400+ Integrations</h3>
+          <p>Connect your favorite tools like Slack, Zoom, Shopify, and more.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Enterprise Security</h3>
+          <p>GDPR & SOC2 compliance, SSO, and advanced permissions out of the box.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <div class="container cta-content">
+      <div class="cta-text">
+        <h3>Start growing smarter today</h3>
+        <p>Join 167,000+ companies using GrowthHub to connect with customers.</p>
+      </div>
+      <div>
+        <a href="#" class="btn-cta-light">Get started free <i class="fas fa-arrow-right" style="margin-left: 8px;"></i></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-logo">Growth<span style="color:var(--primary);">Hub</span></div>
+        <p class="footer-desc">The easy-to-use platform that helps your business grow better.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#">CRM</a></li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Sales</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">CMS</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Partners</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Academy</a></li>
+          <li><a href="#">Status</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2026 GrowthHub, Inc. All rights reserved.   |   <a href="#" style="color:var(--gray-mid); text-decoration:none;">Privacy</a> · <a href="#" style="color:var(--gray-mid); text-decoration:none;">Terms</a></p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
